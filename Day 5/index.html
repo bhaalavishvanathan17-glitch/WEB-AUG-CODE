@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background: skyblue ;
+            width: 300px;
+            height: 150px;
+            text-align: center;
+
+            border: 1px solid black;
+            /*border: 2px dashed red;
+            border: 2px dotted green;
+            border: 4px double blue;*/
+            border-radius: 15px;
+            margin: 20px;
+            padding: 20px;
+            /*margin: auto;  the margin auto will center the box horizontally */
+            /* box-sizing: content-box;  It will Include only content in the width and height of the box. The padding and border will be added to the width and height of the box. */
+            
+            box-sizing: border-box; /* It will Include the content, padding and border in the width and height of the box. The padding and border will not be added to the width and height of the box. */
+
+        }
+
+        p{
+           /* border: 10px solid red; */
+           border-bottom: 2px solid black;
+           padding-bottom: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>Hello Guys</p>
+    </div>
+    <div class="box">
+        <p>Books</p>
+    </div>
+</body>
+</html>
